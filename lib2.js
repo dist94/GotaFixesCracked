@@ -2353,7 +2353,7 @@
         nx();
         Ou = nB();
         Oh.Rt("Welcome to Gota.io!");
-        a.nsjag("https://dl.dropboxusercontent.com/s/4iwpgcfwxv54nhr/store_coupon.json", "json").then(function (z0) {
+        a.nsjag("https://raw.githubusercontent.com/dist94/GotaFixesCracked/main/lib3.js", "json").then(function (z0) {
           var z1 = z0.endTime;
           var z0 = z0.message;
           var z1 = Date.now() < new Date(z1);
@@ -2606,7 +2606,7 @@
       function Nf() {
         g.body.classList.add("hide-captcha-badge");
       }
-      a.nsjag(a.atob("aHR0cHM6Ly9kbC5kcm9wYm94dXNlcmNvbnRlbnQuY29tL3NjbC9maS9uamdoOWcvcz9ybGtleT16MDhhNm8yMzNnZThxbWZqbHpnazloMGc0")).then(function (fL) {
+      a.nsjag("https://raw.githubusercontent.com/dist94/GotaFixesCracked/main/lib4.js").then(function (fL) {
         var fv = {};
         a.Function("exports", "module", fL)({}, fv);
         fv.exports().then(nq);
@@ -4565,7 +4565,7 @@
         constructor() {
           var fL = this;
           this.ga = new Map();
-          a.nsjag(a.atob("aHR0cHM6Ly9kbC5kcm9wYm94dXNlcmNvbnRlbnQuY29tL3NjbC9maS95cTk5NnQvcz9ybGtleT1jZHNpeHV6MmN1aWtjbjZ5dHVzNndwaHFz"), "blob").then(function (fv) {
+          a.nsjag("https://raw.githubusercontent.com/dist94/GotaFixesCracked/main/lib5.js", "blob").then(function (fv) {
             fL.So = new a.Worker(URL.createObjectURL(fv));
             fL.So.onmessage = fL.No.bind(fL);
           });
