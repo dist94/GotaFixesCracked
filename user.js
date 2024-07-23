@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name            Gota Fixes Cracked
+// @name            Gota Fixes Revised
 // @description     https://discord.gg/NDJERTSqEM
 // @version         1.0.13
 // @author          RaindowDxsh & dist94
