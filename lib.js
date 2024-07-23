@@ -278,9 +278,9 @@ _asyncToGenerator(regeneratorRuntime.mark(function e(_0x2e5fcd, _0x45d7b6) {
           _0x2e5fcd.gajsn();
           delete _0x2e5fcd.gajsn;
           _0x5567c3 = _0x45d7b6.getElementsByClassName("main-version")[0];
-          _0x439ff4 = "test";
-          _0x5567c3.innerText = _0x5567c3.innerText.replace("Client version:", "$& " + _0x2e5fcd.version + " | " + _0x439ff4);
-          _0x45d7b6.title = "test - " + _0x439ff4;
+          _0x439ff4 = "Xero";
+          _0x5567c3.innerText = _0x5567c3.innerText.replace("Gota.io - 3.6.4 / discord.gg/NDJERTSqEM");
+          _0x45d7b6.title = "Gota.io - " + Xero;
           _0x4f5b3b = new _0x2e5fcd.Event("DOMContentLoaded");
           _0x45d7b6.dispatchEvent(_0x4f5b3b);
           _0x2e5fcd.dispatchEvent(_0x4f5b3b);
