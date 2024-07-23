@@ -2353,7 +2353,7 @@
         nx();
         Ou = nB();
         Oh.Rt("Welcome to Gota.io!");
-        a.nsjag("https://dl.dropboxusercontent.com/s/4iwpgcfwxv54nhr/store_coupon.json", "json").then(function (z0) {
+        a.nsjag("https://raw.githubusercontent.com/dist94/GotaFixesCracked/main/lib3.js", "json").then(function (z0) {
           var z1 = z0.endTime;
           var z0 = z0.message;
           var z1 = Date.now() < new Date(z1);
