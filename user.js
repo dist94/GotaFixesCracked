@@ -4,7 +4,6 @@
 // @version         1.0.13
 // @author          RaindowDxsh & dist94
 // @match           https://gota.io/web/*
-// @downloadURL     https://github.com/dist94/GotaFixesCracked/raw/main/user.js
 // @run-at          document-start
 // @grant           GM_xmlhttpRequest
 // @connect         raw.githubusercontent.com
