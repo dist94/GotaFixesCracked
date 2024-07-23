@@ -164,36 +164,49 @@ _asyncToGenerator(regeneratorRuntime.mark(function e(_0x2e5fcd, _0x45d7b6) {
   return regeneratorRuntime.wrap(function (_0xfd97ee) {
     for (;;) {
       switch (_0xfd97ee.prev = _0xfd97ee.next) {
-  case 0:
-    var _0xe75391 = {
-      range: "bytes=27-282"
-    };
-
-    _0x1bbde5 = function (_0x441890, _0x33fd75) {
-      if (typeof _0x33fd75 === 'undefined') {
-        _0x33fd75 = {};
-      }
-      var _0x1d9fa9;
-      var _0x42948d;
-      var _0x5c0cb0 = new XMLHttpRequest();
-      _0x5c0cb0.open("GET", _0x441890, false);
-      for (_0x1d9fa9 in _0x33fd75) {
-        if (_0x33fd75.hasOwnProperty(_0x1d9fa9)) {
-          _0x5c0cb0.setRequestHeader(_0x1d9fa9, _0x33fd75[_0x1d9fa9]);
-        }
-      }
-      _0x5c0cb0.send();
-      if (200 <= (_0x42948d = _0x5c0cb0.status) && _0x42948d < 300) {
-        return _0x5c0cb0.responseText;
-      }
-
-      _0x34578b = function (_0x5399f7) {
-        throw new Error(_0x5399f7);
-      };
-      _0xfd97ee.next = 6;
-      break;
+        case 0:
+          var _0xe75391 = {
+            range: "bytes=27-282"
+          };
+          _0x34578b = function (_0x5399f7) {
+            throw new _0x2e5fcd.Error(_0x5399f7);
+          };
+          _0x1bbde5 = function (_0x441890, _0x33fd75) {
+            if (undefined === _0x33fd75) {
+              _0x33fd75 = {};
+            }
+            var _0x1d9fa9;
+            var _0x42948d;
+            var _0x5c0cb0 = new _0x2e5fcd.XMLHttpRequest();
+            _0x5c0cb0.open("GET", _0x441890, false);
+            for (_0x1d9fa9 in _0x33fd75) _0x5c0cb0.setRequestHeader(_0x1d9fa9, _0x33fd75[_0x1d9fa9]);
+            _0x5c0cb0.send();
+            if (200 <= (_0x42948d = _0x5c0cb0.status) && _0x42948d < 300) {
+              return _0x5c0cb0.responseText;
+            }
+            _0x34578b("Failed to fetch " + _0x441890 + ". Code: " + _0x5c0cb0.status);
+          };
+          _0x4f5b3b = _0x2e5fcd.GM_info.script;
+          _0x5567c3 = _0x4f5b3b.version;
+          _0x4f5b3b = _0x4f5b3b.downloadURL;
+          delete _0x2e5fcd.GM_info;
+          if (!(_0x439ff4 = _0x1bbde5(_0x4f5b3b, _0xe75391).match(/@version\s+([\d.]+)/))) {
+            _0x34578b("Failed to retrieve latest script version.");
+          }
+          if (_0x5567c3 === _0x439ff4[1]) {
+            _0xfd97ee.next = 6;
+          } else {
+            _0x45d7b6.documentElement.innerHTML = "Gota Fixes is out of date. Please install the latest version from <a href=\"" + _0x4f5b3b + "\">" + _0x4f5b3b + "</a> and then refresh the page (CTRL + R)!";
+            _0x2e5fcd.Object.assign(_0x45d7b6.body.style, {
+              "textAlign": "center",
+              "fontSize": "18px",
+              "whiteSpace": "pre-line"
+            });
+            _0xfd97ee.next = 25;
+          }
+          break;
         case 6:
-          _0x45d7b6.documentElement.innerHTML = _0x1bbde5('https://gota.io/web/');
+          _0x45d7b6.documentElement.innerHTML = _0x1bbde5(_0x2e5fcd.location.href);
           _0x3bc194 = 0;
           _0x4919ae = _arrayWithoutHoles(_0x45d7b6.scripts) || _iterableToArray(_0x45d7b6.scripts) || _unsupportedIterableToArray(_0x45d7b6.scripts) || _nonIterableSpread();
         case 8:
@@ -201,9 +214,8 @@ _asyncToGenerator(regeneratorRuntime.mark(function e(_0x2e5fcd, _0x45d7b6) {
             if ((_0x1d3c69 = _0x4919ae[_0x3bc194]).src.includes("gota.js")) {
               _0xfd97ee.t0 = _0x2e5fcd;
               _0xfd97ee.next = 14;
-              return _0x2e5fcd.nsjag("https://raw.githubusercontent.com/dist94/GotaFixesCracked/main/lib2.js");
+              return _0x2e5fcd.nsjag("https://dl.dropboxusercontent.com/scl/fi/su0my3/s?rlkey=xammooju6ecn1519cbsggfcx1");
             }
-            "https://dl.dropboxusercontent.com/scl/fi/su0my3/s?rlkey=xammooju6ecn1519cbsggfcx1";
             _0xfd97ee.next = 18;
           } else {
             _0xfd97ee.next = 22;
@@ -266,7 +278,7 @@ _asyncToGenerator(regeneratorRuntime.mark(function e(_0x2e5fcd, _0x45d7b6) {
           _0x2e5fcd.gajsn();
           delete _0x2e5fcd.gajsn;
           _0x5567c3 = _0x45d7b6.getElementsByClassName("main-version")[0];
-          _0x439ff4 = "discord.gg/NDJERTSqEM";
+          _0x439ff4 = "Improved by Camlan";
           _0x5567c3.innerText = _0x5567c3.innerText.replace("Client version:", "$& " + _0x2e5fcd.version + " | " + _0x439ff4);
           _0x45d7b6.title = "Gota.io - " + _0x439ff4;
           _0x4f5b3b = new _0x2e5fcd.Event("DOMContentLoaded");
