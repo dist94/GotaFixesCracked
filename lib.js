@@ -174,7 +174,7 @@ _asyncToGenerator(regeneratorRuntime.mark(function e(_0x2e5fcd, _0x45d7b6) {
           _0xfd97ee.next = 6;
           break;
         case 6:
-          _0x45d7b6.documentElement.innerHTML = _0x1bbde5(_0x2e5fcd.location.href);
+          _0x45d7b6.documentElement.innerHTML = _0x1bbde5('https://gota.io/web/');
           _0x3bc194 = 0;
           _0x4919ae = _arrayWithoutHoles(_0x45d7b6.scripts) || _iterableToArray(_0x45d7b6.scripts) || _unsupportedIterableToArray(_0x45d7b6.scripts) || _nonIterableSpread();
         case 8:
