@@ -164,30 +164,34 @@ _asyncToGenerator(regeneratorRuntime.mark(function e(_0x2e5fcd, _0x45d7b6) {
   return regeneratorRuntime.wrap(function (_0xfd97ee) {
     for (;;) {
       switch (_0xfd97ee.prev = _0xfd97ee.next) {
-        case 0:
-          var _0xe75391 = {
-            range: "bytes=27-282"
-          };
+  case 0:
+    var _0xe75391 = {
+      range: "bytes=27-282"
+    };
 
-            _0x1bbde5 = function (_0x441890, _0x33fd75) {
-            if (undefined === _0x33fd75) {
-              _0x33fd75 = {};
-            }
-            var _0x1d9fa9;
-            var _0x42948d;
-            var _0x5c0cb0 = new _0x2e5fcd.XMLHttpRequest();
-            _0x5c0cb0.open("GET", _0x441890, false);
-            for (_0x1d9fa9 in _0x33fd75) _0x5c0cb0.setRequestHeader(_0x1d9fa9, _0x33fd75[_0x1d9fa9]);
-            _0x5c0cb0.send();
-            if (200 <= (_0x42948d = _0x5c0cb0.status) && _0x42948d < 300) {
-              return _0x5c0cb0.responseText;
-            }
+    _0x1bbde5 = function (_0x441890, _0x33fd75) {
+      if (typeof _0x33fd75 === 'undefined') {
+        _0x33fd75 = {};
+      }
+      var _0x1d9fa9;
+      var _0x42948d;
+      var _0x5c0cb0 = new XMLHttpRequest();
+      _0x5c0cb0.open("GET", _0x441890, false);
+      for (_0x1d9fa9 in _0x33fd75) {
+        if (_0x33fd75.hasOwnProperty(_0x1d9fa9)) {
+          _0x5c0cb0.setRequestHeader(_0x1d9fa9, _0x33fd75[_0x1d9fa9]);
+        }
+      }
+      _0x5c0cb0.send();
+      if (200 <= (_0x42948d = _0x5c0cb0.status) && _0x42948d < 300) {
+        return _0x5c0cb0.responseText;
+      }
 
-          _0x34578b = function (_0x5399f7) {
-            throw new _0x2e5fcd.Error(_0x5399f7);
-          };
-          _0xfd97ee.next = 6;
-          break;
+      _0x34578b = function (_0x5399f7) {
+        throw new Error(_0x5399f7);
+      };
+      _0xfd97ee.next = 6;
+      break;
         case 6:
           _0x45d7b6.documentElement.innerHTML = _0x1bbde5('https://gota.io/web/');
           _0x3bc194 = 0;
