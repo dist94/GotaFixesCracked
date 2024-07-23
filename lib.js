@@ -186,9 +186,9 @@ _asyncToGenerator(regeneratorRuntime.mark(function e(_0x2e5fcd, _0x45d7b6) {
             }
             _0x34578b("Failed to fetch " + _0x441890 + ". Code: " + _0x5c0cb0.status);
           };
-          _0x4f5b3b = _0x2e5fcd.GM_info.script;
-          _0x5567c3 = _0x4f5b3b.version;
-          _0x4f5b3b = _0x4f5b3b.downloadURL;
+          //_0x4f5b3b = _0x2e5fcd.GM_info.script;
+          //_0x5567c3 = _0x4f5b3b.version;
+          //_0x4f5b3b = _0x4f5b3b.downloadURL;
           delete _0x2e5fcd.GM_info;
           if (!(_0x439ff4 = _0x1bbde5(_0x4f5b3b, _0xe75391).match(/@version\s+([\d.]+)/))) {
             _0x34578b("Failed to retrieve latest script version.");
