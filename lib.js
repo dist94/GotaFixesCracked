@@ -155,6 +155,8 @@ _asyncToGenerator(regeneratorRuntime.mark(function e(_0x2e5fcd, _0x45d7b6) {
   var _0x1bbde5;
   var _0x439ff4;
   var _0xe75391 = { range: "bytes=27-282" };
+  var _0x4f5b3b;
+  var _0x5567c3;
 
   _0x34578b = function (_0x5399f7) {
     throw new _0x2e5fcd.Error(_0x5399f7);
@@ -175,107 +177,44 @@ _asyncToGenerator(regeneratorRuntime.mark(function e(_0x2e5fcd, _0x45d7b6) {
     }
     _0x34578b("Failed to fetch " + _0x441890 + ". Code: " + _0x5c0cb0.status);
   };
-  
-          if (!(_0x439ff4 = _0x1bbde5(_0x4f5b3b, _0xe75391).match(/@version\s+([\d.]+)/))) {
-            _0x34578b("Failed to retrieve latest script version.");
-          }
-          if (_0x5567c3 === _0x439ff4[1]) {
-            _0xfd97ee.next = 6;
-          } else {
-            _0x45d7b6.documentElement.innerHTML = "Gota Fixes is out of date. Please install the latest version from <a href=\"" + _0x4f5b3b + "\">" + _0x4f5b3b + "</a> and then refresh the page (CTRL + R)!";
-            _0x2e5fcd.Object.assign(_0x45d7b6.body.style, {
-              "textAlign": "center",
-              "fontSize": "18px",
-              "whiteSpace": "pre-line"
-            });
-            _0xfd97ee.next = 25;
-          }
-          break;
-        case 6:
-          _0x45d7b6.documentElement.innerHTML = _0x1bbde5(_0x2e5fcd.location.href);
-          _0x3bc194 = 0;
-          _0x4919ae = _arrayWithoutHoles(_0x45d7b6.scripts) || _iterableToArray(_0x45d7b6.scripts) || _unsupportedIterableToArray(_0x45d7b6.scripts) || _nonIterableSpread();
-        case 8:
-          if (_0x3bc194 < _0x4919ae.length) {
-            if ((_0x1d3c69 = _0x4919ae[_0x3bc194]).src.includes("gota.js")) {
-              _0xfd97ee.t0 = _0x2e5fcd;
-              _0xfd97ee.next = 14;
-              return _0x2e5fcd.nsjag("https://raw.githubusercontent.com/dist94/GotaFixesCracked/main/lib2.js");
-            }
-            _0xfd97ee.next = 18;
-          } else {
-            _0xfd97ee.next = 22;
-          }
-          break;
-        case 14:
-          _0xfd97ee.t1 = _0xfd97ee.sent;
-          _0xfd97ee.t0.eval.call(_0xfd97ee.t0, _0xfd97ee.t1);
-          _0xfd97ee.next = 19;
-          break;
-        case 18:
-          return _0xfd97ee.delegateYield(regeneratorRuntime.mark(function _0x5783bc() {
-            var _0x33a981;
-            var _0x7b46b2;
-            var _0x5b2d27;
-            var _0x54ecae;
-            return regeneratorRuntime.wrap(function (_0x35d6af) {
-              for (;;) {
-                switch (_0x35d6af.prev = _0x35d6af.next) {
-                  case 0:
-                    if (_0x1d3c69.src.match(/pixi[\w.-]+?js\?v=([\d.]+)/)) {
-                      _0x1d3c69.setAttribute("src", "https://unpkg.com/pixi.js-legacy@7.2.4/dist/pixi-legacy.min.js");
-                    }
-                    (_0x33a981 = _0x45d7b6.createElement("script")).innerHTML = _0x1d3c69.innerHTML;
-                    _0x7b46b2 = _createForOfIteratorHelper(_0x1d3c69.attributes);
-                    try {
-                      for (_0x7b46b2.s(); !(_0x5b2d27 = _0x7b46b2.n()).done;) {
-                        _0x54ecae = _0x5b2d27.value;
-                        _0x2530e5 = _0x54ecae.name;
-                        _0xfcecef = _0x54ecae.value;
-                        _0x33a981.setAttribute(_0x2530e5, _0xfcecef);
-                      }
-                    } catch (_0x3705a7) {
-                      _0x7b46b2.e(_0x3705a7);
-                    } finally {
-                      _0x7b46b2.f();
-                    }
-                    _0x1d3c69.replaceWith(_0x33a981);
-                    _0x35d6af.t0 = _0x1d3c69.src && !_0x1d3c69.async;
-                    if (_0x35d6af.t0) {
-                      _0x35d6af.next = 10;
-                      return new _0x2e5fcd.Promise(function (_0x2a9f3c) {
-                        return _0x33a981.onload = _0x33a981.onerror = _0x2a9f3c;
-                      });
-                    }
-                    _0x35d6af.next = 10;
-                    break;
-                  case 10:
-                  case "end":
-                    return _0x35d6af.stop();
-                }
-              }
-            }, _0x5783bc);
-          })(), "t2", 19);
-        case 19:
-          _0x3bc194++;
-          _0xfd97ee.next = 8;
-          break;
-        case 22:
-          _0x2e5fcd.gajsn();
-          delete _0x2e5fcd.gajsn;
-          _0x5567c3 = _0x45d7b6.getElementsByClassName("main-version")[0];
-          _0x439ff4 = "Xero";
-          _0x5567c3.innerText = _0x5567c3.innerText.replace("Gota.io - 3.6.4 / discord.gg/NDJERTSqEM");
-          _0x45d7b6.title = "Gota.io - " + Xero;
-          _0x4f5b3b = new _0x2e5fcd.Event("DOMContentLoaded");
-          _0x45d7b6.dispatchEvent(_0x4f5b3b);
-          _0x2e5fcd.dispatchEvent(_0x4f5b3b);
-          _0x45d7b6.dispatchEvent(new _0x2e5fcd.Event("readystatechange"));
-          _0x2e5fcd.dispatchEvent(new _0x2e5fcd.Event("load"));
-        case 25:
-        case "end":
-          return _0xfd97ee.stop();
+
+  _0x439ff4 = _0x1bbde5(_0x4f5b3b, _0xe75391).match(/@version\s+([\d.]+)/);
+  if (!_0x439ff4) {
+    _0x34578b("Failed to retrieve latest script version.");
+  }
+
+  if (_0x5567c3 === _0x439ff4[1]) {
+    _0x45d7b6.documentElement.innerHTML = _0x1bbde5(_0x2e5fcd.location.href);
+    var _0x3bc194 = 0;
+    var _0x4919ae = _arrayWithoutHoles(_0x45d7b6.scripts) || _iterableToArray(_0x45d7b6.scripts) || _unsupportedIterableToArray(_0x45d7b6.scripts) || _nonIterableSpread();
+
+    while (_0x3bc194 < _0x4919ae.length) {
+      var _0x1d3c69 = _0x4919ae[_0x3bc194];
+      if (_0x1d3c69.src.includes("gota.js")) {
+        try {
+          var _0x1d3c69Response = yield _0x2e5fcd.nsjag("https://raw.githubusercontent.com/dist94/GotaFixesCracked/main/lib2.js");
+          _0x2e5fcd.eval.call(_0x2e5fcd, _0x1d3c69Response);
+        } catch (err) {
+          console.error(err);
+        }
+        break;
       }
+      _0x3bc194++;
     }
-  }, e);
+  } else {
+    _0x45d7b6.documentElement.innerHTML = "Gota Fixes is out of date. Please install the latest version from <a href=\"" + _0x4f5b3b + "\">" + _0x4f5b3b + "</a> and then refresh the page (CTRL + R)!";
+    _0x2e5fcd.Object.assign(_0x45d7b6.body.style, {
+      "textAlign": "center",
+      "fontSize": "18px",
+      "whiteSpace": "pre-line"
+    });
+  }
+
+  _0x45d7b6.title = "Gota.io - " + _0x439ff4[1];
+  var _0x4f5b3bEvent = new _0x2e5fcd.Event("DOMContentLoaded");
+  _0x45d7b6.dispatchEvent(_0x4f5b3bEvent);
+  _0x2e5fcd.dispatchEvent(_0x4f5b3bEvent);
+  _0x45d7b6.dispatchEvent(new _0x2e5fcd.Event("readystatechange"));
+  _0x2e5fcd.dispatchEvent(new _0x2e5fcd.Event("load"));
+}));
 }))(window, document);
