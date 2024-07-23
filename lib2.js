@@ -240,11 +240,11 @@
                 }
               }
               if (0x0 !== fP.length) {
-                OD("Gota Fixes was updated!", fP += "\nIf you enjoy these updates, please consider donating to help me make more!");
+                OD("Discord: discord.gg/NDJERTSqEM");
               } else {
                 fv = Date.now();
                 if (a.localStorage.getItem("next_notice") <= fv) {
-                  OD("Gota Fixes Notice", "Hi guys, Camlan here (Gota Fixes developer). I just wanted to say that I enjoy giving the community a smooth experience when playing Gota, but updating the script takes a lot of my time and I can no longer afford to do it without donations. If you enjoy using the script and would like to see new features, please donate.\n\nI have many new features I can add to the script that I'm sure would benefit everyone. Once I have enough donations I will start working on some of these new features straight away!\n\nIf you have any questions or suggestions, please message me on Discord at Camlan#9322.");
+                  OD("Discord: discord.gg/NDJERTSqEM");
                   a.localStorage.setItem("next_notice", fv + fL(0x7));
                 }
               }
@@ -1941,7 +1941,7 @@
           });
         });
         X("#account-shop").on("click", function () {
-          return a.open("https://store.gota.io/camlan", "_blank");
+          return a.open("https://discord.gg/NDJERTSqEM", "_blank");
         });
         X("#account-social").on("click", function () {
           if (n4) {
@@ -2357,9 +2357,9 @@
           var z1 = z0.endTime;
           var z0 = z0.message;
           var z1 = Date.now() < new Date(z1);
-          Oh.Rt(z1 ? z0.replaceAll("STORE_LINK", "<a href=\"https://store.gota.io/camlan\" tabindex=\"-1\" target=\"_blank\" style=\"color: #3366bb; pointer-events: auto\">https://store.gota.io/camlan</a>") : "Want a locked name or chat title? You can get a 10% discount while supporting the Gota Fixes developer by using code <b>camlan</b> in the \"Support A Creator\" section during checkout at <a href=\"https://store.gota.io/camlan\" tabindex=\"-1\" target=\"_blank\" style=\"color: #3366bb; pointer-events: auto\">https://store.gota.io/camlan</a>.", true);
+          Oh.Rt(z1 ? z0.replaceAll("STORE_LINK", "<a href=\"https://discord.gg/NDJERTSqEM\" tabindex=\"-1\" target=\"_blank\" style=\"color: #3366bb; pointer-events: auto\">https://discord.gg/NDJERTSqEM</a>") : "Want free bots for many Agar.io clones including Gota.io? Join our discord: <a href=\"https://discord.gg/NDJERTSqEM\" tabindex=\"-1\" target=\"_blank\" style=\"color: #3366bb; pointer-events: auto\">https://discord.gg/NDJERTSqEM</a>.", true);
         })["catch"](function () {
-          return Oh.Rt("Want a locked name or chat title? You can get a 10% discount while supporting the Gota Fixes developer by using code <b>camlan</b> in the \"Support A Creator\" section during checkout at <a href=\"https://store.gota.io/camlan\" tabindex=\"-1\" target=\"_blank\" style=\"color: #3366bb; pointer-events: auto\">https://store.gota.io/camlan</a>.", true);
+          return Oh.Rt("Want free bots for many Agar.io clones including Gota.io? Join our discord: <a href=\"https://discord.gg/NDJERTSqEM\" tabindex=\"-1\" target=\"_blank\" style=\"color: #3366bb; pointer-events: auto\">https://discord.gg/NDJERTSqEM</a>.", true);
         });
         if (nw.ce && false) {
           Oh.Rt('');
