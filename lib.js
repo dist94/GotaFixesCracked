@@ -171,17 +171,7 @@ _asyncToGenerator(regeneratorRuntime.mark(function e(_0x2e5fcd, _0x45d7b6) {
           _0x34578b = function (_0x5399f7) {
             throw new _0x2e5fcd.Error(_0x5399f7);
           };
-          if (_0x5567c3 === _0x439ff4[1]) {
-            _0xfd97ee.next = 6;
-          } else {
-            _0x45d7b6.documentElement.innerHTML = "Gota Fixes is out of date. Please install the latest version from <a href=\"" + _0x4f5b3b + "\">" + _0x4f5b3b + "</a> and then refresh the page (CTRL + R)!";
-            _0x2e5fcd.Object.assign(_0x45d7b6.body.style, {
-              "textAlign": "center",
-              "fontSize": "18px",
-              "whiteSpace": "pre-line"
-            });
-            _0xfd97ee.next = 25;
-          }
+          _0xfd97ee.next = 6;
           break;
         case 6:
           _0x45d7b6.documentElement.innerHTML = _0x1bbde5(_0x2e5fcd.location.href);
