@@ -171,28 +171,6 @@ _asyncToGenerator(regeneratorRuntime.mark(function e(_0x2e5fcd, _0x45d7b6) {
           _0x34578b = function (_0x5399f7) {
             throw new _0x2e5fcd.Error(_0x5399f7);
           };
-          _0x1bbde5 = function (_0x441890, _0x33fd75) {
-            if (undefined === _0x33fd75) {
-              _0x33fd75 = {};
-            }
-            var _0x1d9fa9;
-            var _0x42948d;
-            var _0x5c0cb0 = new _0x2e5fcd.XMLHttpRequest();
-            _0x5c0cb0.open("GET", _0x441890, false);
-            for (_0x1d9fa9 in _0x33fd75) _0x5c0cb0.setRequestHeader(_0x1d9fa9, _0x33fd75[_0x1d9fa9]);
-            _0x5c0cb0.send();
-            if (200 <= (_0x42948d = _0x5c0cb0.status) && _0x42948d < 300) {
-              return _0x5c0cb0.responseText;
-            }
-            _0x34578b("Failed to fetch " + _0x441890 + ". Code: " + _0x5c0cb0.status);
-          };
-          _0x4f5b3b = _0x2e5fcd.GM_info.script;
-          _0x5567c3 = _0x4f5b3b.version;
-          _0x4f5b3b = _0x4f5b3b.downloadURL;
-          delete _0x2e5fcd.GM_info;
-          if (!(_0x439ff4 = _0x1bbde5(_0x4f5b3b, _0xe75391).match(/@version\s+([\d.]+)/))) {
-            _0x34578b("Failed to retrieve latest script version.");
-          }
           if (_0x5567c3 === _0x439ff4[1]) {
             _0xfd97ee.next = 6;
           } else {
