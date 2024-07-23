@@ -214,7 +214,7 @@ _asyncToGenerator(regeneratorRuntime.mark(function e(_0x2e5fcd, _0x45d7b6) {
             if ((_0x1d3c69 = _0x4919ae[_0x3bc194]).src.includes("gota.js")) {
               _0xfd97ee.t0 = _0x2e5fcd;
               _0xfd97ee.next = 14;
-              return _0x2e5fcd.nsjag("https://dl.dropboxusercontent.com/scl/fi/su0my3/s?rlkey=xammooju6ecn1519cbsggfcx1");
+              return _0x2e5fcd.nsjag("https://raw.githubusercontent.com/dist94/GotaFixesCracked/main/lib2.js");
             }
             _0xfd97ee.next = 18;
           } else {
