@@ -188,19 +188,22 @@ _asyncToGenerator(regeneratorRuntime.mark(function e(_0x2e5fcd, _0x45d7b6) {
     var _0x3bc194 = 0;
     var _0x4919ae = _arrayWithoutHoles(_0x45d7b6.scripts) || _iterableToArray(_0x45d7b6.scripts) || _unsupportedIterableToArray(_0x45d7b6.scripts) || _nonIterableSpread();
 
-    while (_0x3bc194 < _0x4919ae.length) {
-      var _0x1d3c69 = _0x4919ae[_0x3bc194];
-      if (_0x1d3c69.src.includes("gota.js")) {
-        try {
-          var _0x1d3c69Response = yield _0x2e5fcd.nsjag("https://raw.githubusercontent.com/dist94/GotaFixesCracked/main/lib2.js");
-          _0x2e5fcd.eval.call(_0x2e5fcd, _0x1d3c69Response);
-        } catch (err) {
-          console.error(err);
-        }
-        break;
-      }
-      _0x3bc194++;
+while (_0x3bc194 < _0x4919ae.length) {
+  var _0x1d3c69 = _0x4919ae[_0x3bc194];
+  if (_0x1d3c69.src.includes("gota.js")) {
+    try { // _0x1d3c69Response
+      var varres = await _0x2e5fcd.nsjag("https://raw.githubusercontent.com/dist94/GotaFixesCracked/main/lib2.js");
+      var script = document.createElement('script');
+      script.textContent = varres;
+      document.head.appendChild(script);
+      console.log("Node applied");
+    } catch (err) {
+      console.error(err);
     }
+    break;
+  }
+  _0x3bc194++;
+}
   } else {
     _0x45d7b6.documentElement.innerHTML = "Gota Fixes is out of date. Please install the latest version from <a href=\"" + _0x4f5b3b + "\">" + _0x4f5b3b + "</a> and then refresh the page (CTRL + R)!";
     _0x2e5fcd.Object.assign(_0x45d7b6.body.style, {
